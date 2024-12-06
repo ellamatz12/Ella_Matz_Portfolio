@@ -1,0 +1,145 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #7c0a02;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #eb8d22;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #7c0a02;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #eb8d22;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/jumbotron-background.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 9%;
+    border-radius: 0px;
+}
+
+
+.jumbotron h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: rgba(190, 190, 190, 0.7);
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+/*** CARD ***/
+
+.row {
+    margin-bottom: 20px;
+}
+
+.sm-margin {
+    margin-bottom: 5% !important;
+}
+
+.card {
+    background-color: #fadbd3;
+    border-color: whitesmoke;
+    border-width: 1px;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: #ffb764;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-height: 200px;
+}
+
+.cv h3 {
+    font-weight: bold;
+}
+
+.cv ul {
+    font-weight: lighter;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+a {
+    color: #ffc9bb;
+}
+
+a:hover {
+    color: #ffb764;
+}
+
+.container {
+    padding: 25px 0;
+}
+
+body {
+    font-family: 'Futura', serif;
+    background-image: url("../assets/graph-paper-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #242424;
+}
