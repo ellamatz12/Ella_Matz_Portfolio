@@ -49,6 +49,26 @@
 
 }
 
+/* Dropdown Menu Styling */
+.dropdown-menu {
+    background-color: #7c0a02;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+
+.dropdown-item {
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+}
+
+.dropdown-item:hover {
+    background-color: #555;
+    color: #eb8d22;
+}
+
 /*** JUMBOTRON ***/
 
 .jumbotron {
