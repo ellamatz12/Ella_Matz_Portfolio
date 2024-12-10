@@ -79,8 +79,11 @@
     align-items: center;
     text-align: center;
     color: black;
-    padding: 9%;
+    padding: 5%;
     border-radius: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
 }
 
 
