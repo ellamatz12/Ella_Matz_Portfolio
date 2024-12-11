@@ -135,11 +135,12 @@
 }
 
 .cv h3 {
-    font-weight: bold;
+    font-size: 30;
 }
 
 .cv ul {
-    font-weight: lighter;
+    font-size: 20;
+    font-weight: normal;
 }
 
 
@@ -149,7 +150,7 @@ hr {
 }
 
 p {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: lighter;
 }
 
